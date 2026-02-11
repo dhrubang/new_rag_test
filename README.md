@@ -289,7 +289,7 @@ python create_vectorstore.py
 
 **Output:** This generates a `vectorstore/` directory containing the FAISS index and pickled chunks/BM25 retriever.
 
-### 6️⃣ Launch the Chatbot
+### 5. Launch the Chatbot
 
 Start the Flask application:
 
@@ -299,7 +299,7 @@ python app.py
 
 Open your browser and navigate to **http://127.0.0.1:5000**
 
-### 7️⃣ Start Chatting! 💬
+### 6. Start Chatting! 💬
 
 - Type queries like *"torque specification for brake caliper guide pin bolts"* or *"what is pinpoint test"*
 - Use the **"+ New Chat"** button to reset the conversation history
@@ -308,23 +308,16 @@ Open your browser and navigate to **http://127.0.0.1:5000**
 ---
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Groq** for providing blazing-fast LLM inference
 - **LangChain** for the excellent RAG framework
 - **HuggingFace** for open-source embedding models
-- The automotive community for inspiration and domain knowledge
 
 ---
-
-## 📧 Contact
-
-For questions or feedback, please open an issue or reach out via email.
-
-**Happy querying! 🔧🚗**
